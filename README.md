@@ -1,6 +1,8 @@
 # dailyGarbo
 This is IPB's script to do daily tasks and run Garbo.
 
+!!RIGHT NOW IT WILL RUN FOR IPB AND NOBODY ELSE!!
+
 What does it do?
 ----------------
 This is a plug and play script that tries to run IPB's daily routine of breakfast, additional scripts, then garbo. 
