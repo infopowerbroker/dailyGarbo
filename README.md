@@ -22,7 +22,7 @@ First, install it by running this command in KoLmafia's graphical CLI:
 Then look and edit for what you can use. This will work better once I add additional scripts to the dependencies.txt
 
 <pre>
-git checkout https://github.com/infopowerbroker/dailyGarbo.git release
+git checkout infopowerbroker/dailyGarbo release
 </pre>
 
 Once it's installed, go to the Scripts menu, then select "dailyGarbo.ash". This can be configured as part of the meatbutton.ash script I host elsewhere.
