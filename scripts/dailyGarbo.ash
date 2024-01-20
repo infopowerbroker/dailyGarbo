@@ -12,6 +12,7 @@
 
 void main(){
 notify infopowerbroker;
+import <Fax2dotZero.ash>
 
 //checking to see if someone else already farmed with this character today. 
 if((get_property("_dailyGarboStage").to_int()!=1) && (get_property("_dailyGarboStage").to_int()<2) && (my_inebriety().to_int()>inebriety_limit().to_int())){
@@ -52,7 +53,7 @@ if(get_property("_dailyGarboStage").to_int()==1){
 	else{
 		//ask CWBot about the fax, to bring in a new one
 		//Clan Norms are that we should ask in chat
-		chat_private("cwbot" , "!fax");
+		GetClanFax(desiredMonster);
 		exit;
 		}
 	}
