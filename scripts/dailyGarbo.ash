@@ -54,7 +54,6 @@ if(get_property("_dailyGarboStage").to_int()==1){
 		//ask CWBot about the fax, to bring in a new one
 		//Clan Norms are that we should ask in chat
 		GetClanFax(desiredMonster);
-		exit;
 		}
 	}
 	else{
